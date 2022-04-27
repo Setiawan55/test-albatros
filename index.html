@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Albatros</title>
+   <link rel="icon" type="image/x-icon" href="assets/img/Logo.png">
+   <link rel="stylesheet" href="assets/style/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header>
+    <div id="home" class="header-container">
+        <div class="logo">
+            <img src="assets/img/logo-Header.png" alt="logo">
+        </div>
+        
+       <div class="nav-header">
+            <div class="navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#product">Product</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body onload="aboutUsFunction(1)">
+	<main>
+        <div class="container-home">
+            <div class="main-page">
+                <article class="home-card">
+                    <h1>Your Logistic Solution is Here.</h1>
+                    <h3>We have 100+ customer<br>trust on out service</h3>
+                </article>
+                <aside class="home-image">
+                    <img src="assets/img/home-image.jpg" alt="Truck">
+                </aside>
+            </div>
+        </div>
+
+        <div class="about-us" id="about">
+            <div class="left-pane">
+                <div class="flexButton">
+                    <button class="aboutButton" id="AboutButton" onclick="aboutUsFunction(1)"><h1>About Us</h1></button>
+                    <button class="aboutButton" id="VisionButton" onclick="aboutUsFunction(2)"><h1>Vision</h1></button>
+                    <button class="aboutButton" id="MissionButton" onclick="aboutUsFunction(3)"><h1>Mission</h1></button>
+                </div>
+            </div>
+            <div class="right-pane">
+                <div class="aboutUs-card" id="all-content">
+                    <article class="content" id="desc">
+                        <h3>PT Albatros Logistik Express is a land transportation and logistics service company that was founded in 2016. With experience serving various types of industries, we provide all logistics services and supply chain management. Customer trust that is always maintained is a form of our commitment to always maintain product and service quality.</h3>
+                    </article>
+                    <article class="content" id="visi">
+                        <h3>Become a global logistics provider with best service quality.</h3>
+                    </article>
+                    <article class="content" id="misi">
+                        <ol><h3>
+                            <li>Achieve customer satisfaction</li>
+                            <li>Giving efficient logistic service to all customers</li>
+                        </h3></ol>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="service">
+            <div class="service-header"><h1>Our Services</h1></div>
+            <div class="service-card">
+                <article class="card">
+                    <img src="assets/img/customer-service.png" alt="customer-service">
+                    <h2>24/7 Customer Care</h2>
+                    <h3>We will always be there for you</h3>
+                </article>
+                <article class="card">
+                    <img src="assets/img/truck.png" alt="top-truck">
+                    <h2>Top Quality Truck</h2>
+                    <h3>We will ensure you have our best truck</h3>
+                </article>
+                <article class="card">
+                    <img src="assets/img/delivery.png" alt="fast-delivery">
+                    <h2>Fast Deliverable</h2>
+                    <h3>We will ensure you to deliver your product as fast as we could</h3>
+                </article>
+                <article class="card">
+                    <img src="assets/img/maps.png" alt="real-time">
+                    <h2>Real Time Tracking</h2>
+                    <h3>We will ensure you to keep informed update position</h3>
+                </article>
+            </div>
+        </div>
+
+        <div class="product" id="product">
+            <div class="left-container">
+                <h1 style="color: white;">Our<br>Product</h1>
+            </div>
+            <div class="right-container">
+                <div class="product-card">
+                    <div class="trailer">
+                        <img src="assets/img/trailer.png" alt="trailer">
+                        <h1>Trailer</h1>
+                    </div>
+                    <!-- <div class="fuso">
+                        <img src="assets/img/trailer.png" alt="trailer">
+                        <h1>Trailer</h1>
+                    </div>
+                    <div class="cdd">
+                        <img src="assets/img/trailer.png" alt="trailer">
+                        <h1>Trailer</h1>
+                    </div>
+                    <div class="cdd-long">
+                        <img src="assets/img/trailer.png" alt="trailer">
+                        <h1>Trailer</h1> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="customers">
+            <h1>Our Customers</h1>
+            <div class="list-customer">
+                <div class="list">
+                    <img src="assets/img/Company-List/impact.jpg" alt="impact">
+                    <img src="assets/img/Company-List/karyaDayaSyafarmasi.png" alt="kds">
+                    <img src="assets/img/Company-List/ttlc.jpg" alt="ttlc">
+                </div>
+                <div class="list">
+                    <img src="assets/img/Company-List/syncrum.png" alt="syncrum">
+                    <img src="assets/img/Company-List/rayspeed.png" alt="rayspeed">
+                    <img src="assets/img/Company-List/enesis.jpg" alt="enesis">
+                </div>
+                <div class="list">
+
+                </div>
+                <div class="list">
+
+                </div>
+                <div class="list">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="footer">
+            <div class="footer-flex">
+                <div class="left-footer">
+                    <h1>Contact</h1>
+                </div>
+                <div class="middle-footer">
+                    <h3>Albatros Logistik Express</h3>
+                </div>
+                <div class="right-footer">
+                    <h3>PT ALBATROS LOGISTIK<br>EXPRESS</h3>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <h3>©2022 PT. Albatros Logistik Express</h3>
+            </div>
+        </div>
+   </main>
+   
+   <script src="assets/script/albatros.js"></script>
+</body>
+</html>
