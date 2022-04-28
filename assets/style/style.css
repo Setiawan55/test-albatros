@@ -20,6 +20,11 @@ h3{
     font-size: 28px;
 }
 
+h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
 .header-container {
     display: flex;
     padding: 0px 20px;
@@ -220,17 +225,89 @@ h3{
     border-radius: 15px;
     height: 470px;
     margin: 30px;
+    overflow: hidden;
 }
 
-.trailer img{
+#trailer img{
     height: 200px;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 10%;
+}
+
+#fuso img{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 16%;
+}
+
+#cdd img{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+#cdd-long img{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 20%;
 }
 
 .product-card h1{
     text-align: center;
 }
+
+.OurProduct {display: none;}
+
+/* Fading animation */
+.fade {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  /*coba*/
+  .coba{
+    animation: moveToRight 1s ease-in;
+    animation-delay: 3s;
+  }
+
+  @keyframes moveToRight {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-900px);
+    }
+  }
+  /**/
+
+.list1 {display: none;}
 
 .customers{
     text-align: center;
@@ -240,16 +317,14 @@ h3{
 .list-customer{
     display: flex;
     flex-direction: column;
-    margin: 100px 0;
+    margin: 60px 0;
     column-width: 20px;
+    height: 270px;
 }
 
 .list-customer img{
     height: 60px;
-}
-
-.list{
-    display: block;
+    margin: 40px;
 }
 
 .footer{
@@ -279,13 +354,39 @@ h3{
     font-size: 18px;
 }
 
+.middle-footer h4{
+    font-size: 14px;
+    text-align: left;
+}
+
+.middle-footer span{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.middle-footer i{
+    flex-basis: 10%;
+}
+
 .right-footer{
     text-align: center;
     flex-basis: 33%;
 }
 
-.right-footer h3{
+.right-footer h4{
     font-size: 14px;
+    text-align: left;
+}
+
+.right-footer span{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.right-footer i{
+    flex-basis: 10%;
 }
 
 .footer-copyright{

@@ -58,3 +58,35 @@ function aboutUsFunction(id) {
             button3.style.color = "black";
       }
   }
+
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("OurProduct");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+  }
+
+  let slide_Index = 0;
+  showSlides1();
+  
+  function showSlides1() {
+    let i;
+    let slides = document.getElementsByClassName("list1");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slide_Index++;
+    if (slide_Index > slides.length) {slide_Index = 1}    
+    
+    slides[slide_Index-1].style.display = "block";  
+    setTimeout(showSlides1, 4000); // Change image every 2 seconds
+  }
