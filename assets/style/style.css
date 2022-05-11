@@ -237,19 +237,19 @@ h4{
 #fuso img{
     height: 200px;
     margin-top: 100px;
-    margin-left: 16%;
+    margin-left: 23%;
 }
 
 #cdd img{
     height: 200px;
     margin-top: 100px;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 #cdd-long img{
     height: 200px;
     margin-top: 100px;
-    margin-left: 20%;
+    margin-left: 23%;
 }
 
 .product-card h1{
@@ -366,26 +366,6 @@ h4{
 }
 
 .middle-footer i{
-    margin-right: 20px;
-}
-
-.right-footer{
-    text-align: center;
-    flex-basis: 33%;
-}
-
-.right-footer h4{
-    font-size: 14px;
-    text-align: left;
-}
-
-.right-footer span{
-    display: flex;
-    align-items: center;
-    margin-left: 25%;
-}
-
-.right-footer i{
     margin-right: 20px;
 }
 

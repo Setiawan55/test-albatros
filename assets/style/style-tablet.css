@@ -1,5 +1,129 @@
-@media only screen and (max-width: 1026px) {
+@media (min-width: 651px) and (max-width: 1026px) {
+    .logo{
+        flex-basis: auto;
+    }
+    
     .card{
         height: 470px;
+    }
+
+    .container-home{
+        height: max-content;
+    }
+
+    .main-page{
+        flex-direction: column;
+        width: auto;
+        height: max-content;
+    }
+
+    .home-card{
+        padding: 50px;
+    }
+
+    .home-image{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-image img{
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .aboutUs-card{
+        height: 300px;
+        padding: 20px 25px;
+        width: auto;
+        margin: 10px;
+    }
+
+    .aboutButton{
+        width: auto;
+        height: 150px;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 0 20px;
+    }
+
+    .left-pane{
+        margin: auto;
+    }
+
+    .right-pane{
+        margin: auto;
+    }
+
+    .flexButton{
+        flex-direction: row;
+    }
+
+    .about-us{
+        flex-direction: column-reverse;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .service-card{
+        flex-direction: column;
+    }
+
+    .product{
+        flex-direction: column;
+        width: auto;
+        margin: 50px 10px;
+        height: 750px;
+    }
+
+    .product-card{
+        height: 450px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .left-container{
+        margin: 30px;
+        flex-basis: 20%;
+    }
+
+    .right-container{
+        flex-basis: 80%;
+        width: 90%;
+        margin: 10px;
+        align-items: center;
+    }
+
+    #trailer img{
+        height: 200px;
+        margin-left: 1%;
+    }
+
+    #fuso img{
+        height: 200px;
+        margin-left: 15%;
+    }
+    
+    #cdd img{
+        height: 200px;
+        margin-left: 20%;
+    }
+    
+    #cdd-long img{
+        height: 200px;
+        margin-left: 15%;
+    }
+
+    .customers{
+        margin: 100px 10px;
+    }
+
+    .list-customer{
+        height: 200px;
+        margin: 100px 0;
+    }
+
+    .list-customer img{
+        height: 50px;
+        margin: 10px 20px;
     }
 }
