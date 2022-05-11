@@ -146,7 +146,7 @@ h4{
     margin: 10px;
     box-sizing: border-box;
     text-align: justify;
-    overflow: auto;
+    overflow: hidden;
     padding: 20px 55px;
     display: flex;
     align-items: center;
