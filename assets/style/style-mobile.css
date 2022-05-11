@@ -25,10 +25,13 @@
         padding: 50px;
     }
 
+    .home-image{
+        padding: 10px;
+    }
+
     .home-image img{
         height: 200px;
         object-fit: cover;
-        margin: 10px;
     }
 
     .aboutUs-card{
@@ -39,10 +42,11 @@
     }
 
     .aboutButton{
-        width: 100%;
-        height: 100px;
+        width: auto;
+        height: 60px;
         margin: 7px;
-        padding: 0px 20px;
+        border-radius: 10px;
+        padding: 0 10px;
     }
 
     .aboutButton h1{
