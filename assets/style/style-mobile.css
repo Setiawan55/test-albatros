@@ -12,13 +12,13 @@
     }
 
     .container-home{
-        height: 500px;
+        height: max-content;
     }
 
     .main-page{
         flex-direction: column;
         width: auto;
-        height: 500px;
+        height: max-content;
     }
 
     .home-card{
@@ -28,6 +28,7 @@
     .home-image img{
         height: 200px;
         object-fit: cover;
+        margin: 10px;
     }
 
     .aboutUs-card{
