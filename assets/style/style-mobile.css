@@ -11,6 +11,16 @@
         font-size: 18px;
     }
 
+    .dropbtnIcon{
+        display: inline-block;
+        top: 0;
+        height: 15px;
+    }
+
+    .dropdown-contentIcon{
+        display: none;
+    }
+
     .container-home{
         height: max-content;
     }
@@ -127,7 +137,6 @@
 
     .list-customer{
         height: 200px;
-        margin: auto;
     }
 
     .list-customer img{
@@ -136,9 +145,10 @@
     }
 
     .footer{
-        height: 500px;
-        margin-top: 100px;
+        height: max-content;
+        margin-top: 150px;
         margin-bottom: 0;
+        padding: 20px 0;
     }
 
     .footer-flex{
@@ -147,8 +157,7 @@
     }
 
     .middle-footer span{
-        float: left;
-        margin-left: 25%;
+        margin-left: 5%;
     }
 
     .middle-footer i{

@@ -61,11 +61,15 @@ h4{
     float: right;
 }
 
+.dropbtnIcon{
+    display: none;
+}
+
 .container-home{
     height: 558px;
     width: 90%;
     border-radius: 25px;
-    margin: 20px auto;
+    margin: 20px auto 50px auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -94,6 +98,8 @@ h4{
 .about-us{
     align-items: center;
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .left-pane{
@@ -175,7 +181,7 @@ h4{
     color: white;
     text-align: center;
     padding: 20px;
-    margin: 0px;
+    margin: 50px 0px;
     align-items: center;
 }
 
@@ -206,7 +212,7 @@ h4{
     width: 1364px;
     border-radius: 15px;
     background-color: #283544;
-    margin: 20px auto;
+    margin: 100px auto;
     display: flex;
     align-items: center;
 }
@@ -351,7 +357,7 @@ h4{
 }
 
 .middle-footer h3{
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .middle-footer h4{
@@ -367,6 +373,19 @@ h4{
 
 .middle-footer i{
     margin-right: 20px;
+}
+
+.right-footer{
+    flex-basis: 33%;
+    padding: 20px;
+}
+
+.right-footer h3{
+    font-size: 22px;
+}
+
+.right-footer h4{
+    font-size: 14px;
 }
 
 .footer-copyright{

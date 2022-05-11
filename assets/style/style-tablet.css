@@ -2,7 +2,7 @@
     .logo{
         flex-basis: auto;
     }
-    
+
     .card{
         height: 470px;
     }
@@ -125,5 +125,24 @@
     .list-customer img{
         height: 50px;
         margin: 10px 20px;
+    }
+
+    .footer{
+        height: max-content;
+        margin-top: 100px;
+        margin-bottom: 0;
+        padding: 20px 0;
+    }
+
+    .footer-flex{
+        height: fit-content;
+    }
+
+    .middle-footer span{
+        margin-left: 5%;
+    }
+
+    .middle-footer i{
+        margin-right: 20px;
     }
 }
