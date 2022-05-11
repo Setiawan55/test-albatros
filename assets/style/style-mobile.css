@@ -79,7 +79,7 @@
     .product{
         flex-direction: column;
         width: auto;
-        margin: 10px;
+        margin: 50px 10px;
         height: 650px;
     }
 
@@ -119,6 +119,19 @@
     #cdd-long img{
         height: 200px;
         margin-left: 40px;
+    }
+
+    .customers{
+        margin: 50px 10px;
+    }
+
+    .list-customer{
+        height: 250px;
+    }
+
+    .list-customer img{
+        height: 35px;
+        margin: 10px 20px;
     }
 
     .footer{
