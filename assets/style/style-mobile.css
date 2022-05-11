@@ -12,13 +12,13 @@
     }
 
     .container-home{
-        height: fit-content;
+        height: max-content;
     }
 
     .main-page{
         flex-direction: column;
         width: auto;
-        height: fit-content;
+        height: max-content;
     }
 
     .home-card{
@@ -27,7 +27,7 @@
 
     .home-image img{
         height: 200px;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .aboutUs-card{
@@ -86,25 +86,25 @@
     }
 
     #trailer img{
-        height: 90px;
+        height: 10%;
         margin-left: auto;
         margin-right: auto;
     }
 
     #fuso img{
-        height: 90px;
+        height: 10%;
         margin-left: auto;
         margin-right: auto;
     }
     
     #cdd img{
-        height: 90px;
+        height: 10%;
         margin-left: auto;
         margin-right: auto;
     }
     
     #cdd-long img{
-        height: 90px;
+        height: 10%;
         margin-left: auto;
         margin-right: auto;
     }
