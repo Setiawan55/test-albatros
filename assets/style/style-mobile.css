@@ -79,11 +79,11 @@
         flex-direction: column;
         width: auto;
         margin: 10px;
-        height: 800px;
+        height: 650px;
     }
 
     .product-card{
-        height: 500px;
+        height: 430px;
         width: 100%;
         margin: auto;
         padding: auto;
@@ -101,27 +101,23 @@
     }
 
     #trailer img{
-        height: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        height: 200px;
+        margin-left: 0;
     }
 
     #fuso img{
-        height: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        height: 200px;
+        margin-left: 0;
     }
     
     #cdd img{
-        height: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        height: 200px;
+        margin-left: 0;
     }
     
     #cdd-long img{
-        height: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        height: 200px;
+        margin-left: 0;
     }
 
     .footer{
