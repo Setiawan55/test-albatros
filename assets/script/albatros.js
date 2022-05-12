@@ -71,7 +71,7 @@ function aboutUsFunction(id) {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}    
     
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "flex";  
     setTimeout(showSlides, 4000); // Change image every 2 seconds
   }
 

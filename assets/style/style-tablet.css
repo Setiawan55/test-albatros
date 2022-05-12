@@ -80,6 +80,11 @@
         flex-direction: column;
     }
 
+    .card img{
+        height: 100px;
+        width: 100px;
+    }
+
     .product{
         flex-direction: column;
         width: auto;
@@ -103,26 +108,6 @@
         width: 90%;
         margin: 10px;
         align-items: center;
-    }
-
-    #trailer img{
-        height: 200px;
-        margin-left: 1%;
-    }
-
-    #fuso img{
-        height: 200px;
-        margin-left: 15%;
-    }
-    
-    #cdd img{
-        height: 200px;
-        margin-left: 20%;
-    }
-    
-    #cdd-long img{
-        height: 200px;
-        margin-left: 15%;
     }
 
     .customers{
