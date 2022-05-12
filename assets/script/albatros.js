@@ -90,3 +90,34 @@ function aboutUsFunction(id) {
     slides[slide_Index-1].style.display = "block";  
     setTimeout(showSlides1, 4000); // Change image every 2 seconds
   }
+
+  function myFunctionIcon() {
+    document.getElementById("myDropdownIcon").classList.toggle("showIcon");
+  }
+
+  window.onclick = function(event) {
+      if (!event.target.matches('.dropbtnIcon')) {
+          var dropdownsIcon = document.getElementsByClassName("dropdown-contentIcon");
+          var i;
+          for (i = 0; i < dropdownsIcon.length; i++) {
+              var openDropdownIcon = dropdownsIcon[i];
+              if (openDropdownIcon.classList.contains('showIcon')) {
+                  openDropdownIcon.classList.remove('showIcon');
+              }
+          }
+      }
+  }
+
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    var navigation = document.getElementById("navbar");
+    if (prevScrollpos > currentScrollPos) {
+      navigation.style.top = "0";
+      navigation.style.backgroundColor = "white";
+    } else {
+      navigation.style.top = "-50px";
+      navigation.style.backgroundColor = "#2173B9";
+    }
+    prevScrollpos = currentScrollPos;
+  }

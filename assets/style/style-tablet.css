@@ -15,10 +15,6 @@
         font-size: 15px;
     }
 
-    .logo{
-        flex-basis: auto;
-    }
-
     .card{
         height: 470px;
     }
