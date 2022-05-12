@@ -11,6 +11,10 @@
         font-size: 16px;
     }
 
+    h4{
+        font-size: 12px;
+    }
+
     .dropbtnIcon{
         display: inline-block;
         top: 0;
