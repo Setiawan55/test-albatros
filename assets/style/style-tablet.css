@@ -84,11 +84,6 @@
         flex-direction: column;
     }
 
-    .card img{
-        height: 100px;
-        width: 100px;
-    }
-
     .product{
         flex-direction: column;
         width: auto;
